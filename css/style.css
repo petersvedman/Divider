@@ -1,7 +1,37 @@
 /* Stylesheet for boilerplate */
 
 /* tags */
+p {
+
+     font-size: 96px;
+     margin: 10% auto;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: monospace;
+  font-weight: bolder;
+  color: white;
+  background: steelblue;
+  text-align: center;
+}
 
 /* classes */
+.square {
+  background: purple;
+  width: 30%;
+  border-radius: 15%;
+  margin: 1.66%;
+  float: left;
+  text-align: center;
+
+}
+
+.container {
+  align-content: center;
+  max-width: 600px;
+  margin: 20px auto;
+
+}
 
 /* ID:s */
