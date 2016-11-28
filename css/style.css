@@ -12,13 +12,14 @@ h1 {
   font-family: monospace;
   font-weight: bolder;
   color: white;
-  background: steelblue;
+  background: #89A7C2;
   text-align: center;
 }
 
+
 /* classes */
 .square {
-  background: purple;
+  background: #AEC17B;
   width: 30%;
   border-radius: 15%;
   margin: 1.66%;

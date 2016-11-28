@@ -62,7 +62,7 @@ function checkEnd(){
 
 // printVictory prints Victory and lets you play on
 function printVictory(){
-  console.log("victory");
+  console.log("Good job! Now play again!");
 }
 
 shuffleArray(arr);
