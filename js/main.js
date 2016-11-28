@@ -43,6 +43,7 @@ function setupEventListeners(){
             redraw();
           }
       }
+      else {score -= 100;}
   });
 
   }
@@ -67,3 +68,7 @@ function printVictory(){
 shuffleArray(arr);
 setupEventListeners();
 redraw();
+setInterval(function(){
+  shuffleArray(arr);
+  redraw();
+}, 2500);

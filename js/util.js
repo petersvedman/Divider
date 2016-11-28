@@ -17,7 +17,7 @@ function shuffleArray(array) {
 * Number of % level elements randomized
 */
 function makeNewArray(level){
-  var slugs = getRandomInt(1,level);
+  var slugs = getRandomInt(1,5);
   for (var i=0; i<arr.length;i++){
     arr[i] = String(generateNumber(level+1));
   }
@@ -28,7 +28,7 @@ shuffleArray(arr);
 }
 
 function generateDivisible(level){
-  return getRandomInt(0,17) * level;
+  return getRandomInt(1,2+level) * level;
 }
 
 function generateNumber(level){
