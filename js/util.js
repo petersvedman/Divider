@@ -12,3 +12,25 @@ function shuffleArray(array) {
     }
     return array;
 }
+/**
+* Make a new array with at least one element % level
+* Number of % level elements randomized
+*/
+function makeNewArray(level){
+  var slugs = getRandomInt(1,level);
+  for (var i=0; i<arr.length;i++){
+    arr[i] = String(generateNumber(level+1));
+  }
+  for (var j=0; j<slugs;j++){
+    arr[j] =  String(generateDivisible(level+1));
+}
+shuffleArray(arr);
+}
+
+function generateDivisible(level){
+  return getRandomInt(0,17) * level;
+}
+
+function generateNumber(level){
+  return getRandomInt(1, level*5);
+}
